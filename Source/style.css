@@ -1,0 +1,27 @@
+<style>
+    .main {
+
+    }
+    .main h1 {
+
+    }
+    .head {
+      text-align: center;
+    }
+    .head h1{
+      font-size: 60px;
+    }
+    .head ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+    .head li {
+      display: inline;
+    }
+    .head a {
+      color: black;
+      text-decoration: none;
+    }
+</style>
