@@ -4,30 +4,15 @@
     <title>Vestige - Home</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="Source/style.css">
-    <script>
-      function printHeaderMenu(){
-        var menus = [
-                     ["Category/StudyList.html", "스터디&nbsp리스트", "study"],
-                     ["Category/ProjectList.html", "프로젝트&nbsp리스트", "project"],
-                     ["Category/TalkList.html", "토크&nbsp리스트", "talk"],
-                     ["Category/MemoList.html", "메모&nbsp리스트", "memo"]
-                    ];
-
-        for(var i = 0; i < menus.length; i++){
-          document.write('<li><a href='+menus[i][0]+' title='+menus[i][1]+'>'+menus[i][2]+'</a></li>');
-        }
-      }
-    </script>
+    <script src="Source/Menu.js"></script>
   </head>
   <body>
     <div class="main head">
       <h1><a href="index.html" title="홈으로 이동">Project Vestige</a></h1>
       <a href="Category/IntroduceDev.html" title="개발자 소개">Developer : JiHun Kang</a>
-      <ul>
-        <script>
-          printHeaderMenu();
-        </script>
-      </ul>
+      <script>
+        HeaderMenu.printHeaderMenu();
+      </script>
     </div>
   </body>
 </html>
