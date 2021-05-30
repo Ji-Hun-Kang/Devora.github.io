@@ -10,11 +10,10 @@ var HeaderMenu = {
     return this.headerMenus;
   },
 
-  printHeaderMenu:function(){
-    document.write("<ul>");
-    for(var i = 0; i < this.menus.length; i++){
-      document.write("<li><a href="+this.menus[i][0]+" title="+this.menus[i][1]+">"+this.menus[i][2]+"</a></li>");
+  printHeaderMenu:function(relativePath){
+    for(var i = 0; i < this.headerMenus.length; i++){
+      document.write("<li><a href="+relativePath+this.headerMenus[i][0]+" title="+this.headerMenus[i][1]+">"+this.headerMenus[i][2]+"</a></li>");
     }
-    document.write("</ul>");
+
   }
 }

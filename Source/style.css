@@ -1,28 +1,32 @@
-<style>
-    .main {
-
+    .container{
+      max-width: 1300px;
+      margin-left: auto;
+      margin-right: auto;
     }
-    .main h1 {
-
-    }
-    .head {
+    .header {
       text-align: center;
     }
-    .head h1{
+    .header h1{
       font-size: 60px;
       margin-bottom: 15px;
     }
-    .head ul {
+    .header ul {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       background-color: lightgrey;
       margin-top: 30px;
     }
-    .head li {
+    .header li {
       display: inline;
     }
-    .head a {
+    .header a {
       color: black;
       text-decoration: none;
     }
-</style>
+    .main {
+
+
+    }
+    .main h1 {
+
+    }
