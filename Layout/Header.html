@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="../Source/style.css">
+<script src="../Source/Menu.js"></script>
+
+<h1><a href="./index.html" title="홈으로 이동">Project Vestige</a></h1>
+<a href="./Category/IntroduceDev.html" title="개발자 소개">Developer : JiHun Kang test</a>
+<ul>
+  <script>
+      var headerMenus = HeaderMenu.getHeaderMenus();
+      for(var i = 0; i < headerMenus.length; i++){
+        document.write("<li><a href='./Category/"+headerMenus[i][0]+"' title="+headerMenus[i][1]+">"+headerMenus[i][2]+"</a></li>")
+      }
+  </script>
+</ul>

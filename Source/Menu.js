@@ -1,10 +1,14 @@
 var HeaderMenu = {
-  "menus" : [
-              ["/Category/StudyList.html", "스터디&nbsp리스트", "study"],
-              ["/Category/ProjectList.html", "프로젝트&nbsp리스트", "project"],
-              ["/Category/TalkList.html", "토크&nbsp리스트", "talk"],
-              ["/Category/MemoList.html", "메모&nbsp리스트", "memo"]
+  "headerMenus" : [
+              ["StudyList.html", "스터디&nbsp리스트", "study"],
+              ["ProjectList.html", "프로젝트&nbsp리스트", "project"],
+              ["TalkList.html", "토크&nbsp리스트", "talk"],
+              ["MemoList.html", "메모&nbsp리스트", "memo"]
             ],
+
+  getHeaderMenus:function(){
+    return this.headerMenus;
+  },
 
   printHeaderMenu:function(){
     document.write("<ul>");
