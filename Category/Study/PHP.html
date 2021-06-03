@@ -23,6 +23,7 @@
         <ol>
           <li><a href="#about">PHP?</a></li>
           <li><a href="#mechanism">Mechanism of PHP</a></li>
+          <li><a href="#dataType">Data Type of PHP</a></li>
         </ol>
       </div>
       <!-- about php -->
@@ -76,7 +77,32 @@
           <li>'.php'의 데이터는 '<?php ?>' 안에 적혀있는 php 문법에 따라 실시간으로 html을 생성하므로 동적입니다.</li>
         </ol>
       </div>
+      <!-- data type of php -->
+      <h4 id="dataType">Data Type of PHP</h4>
+      <div>
+        <p>php의 기본적인 개념은 이쯤하고 이제 구체적인 문법을 공부할 때가 되었다.<br>
+        프로그래밍 언어를 사용하는 이유 중에 하나는 데이터를 어떠한 의도에 따라 처리하기 위함일 것이다.<br>
+        이러한 이유로 인해 '프로그래밍 언어가 어떠한 데이터 타입을 제공하는가 그리고 각각의 데이터 타입을 처리하는 방법을 어떻게 제공하는가'에 대해 공부하는 것은 필수적이다.<br>
+        </p>
+        <p>'php.net'의 php manual에 따르면 php는 10개의 기본 데이터 타입을 제공한다.<br>
+        그중에 4개는 scalar 타입이며 bool, int, float(floating-point numbre, aka double), string이 scalar타입에 해당한다.<br>
+        (네이버 사전에 따르면 'scalar'가 '수치(또는 실수)로 표시되는 수량'의 의미를 가지고 있다고 하는데... string은 왜 scalar 타입인거지?)<br>
+        또 다른 4개는 compound 타입이고 array, object, callable, iterable이 compound타입에 해당한다.<br>
+        나머지 2개는 special 타입으로 resource, NULL이 special 타입에 해당한다.</p>
+        <p>integer는 정수를 표현하는 데이터 타입으로 자연수와 0, 음수가 이에 해당한다.<br>
+          
+        </p>
 
+
+        <h5>bonus</h5>
+        <ul>
+          <li>echo : echo는 php에서 데이터의 형식을 막론하고 화면에 무엇인가를 표현하는 방식이다.</li>
+          <li>print() : echo와 같은 역할을하며 ()안의 값을 html로 출력한다.</li>
+          <li>세미콜론(;) : php는 반드시 하나의 구문(or 명령)이 끝나면 세미콜론을 기입하여 구문의 끝을 알린다.</li>
+          <li>표현식 : 컴퓨터 언어가 실행된 후에 최종적으로 어떠한 값으로 바뀌는 것들을 표현식이라고 한다.</li>
+        </ul>
+        </p>
+      </div>
     </div>
   </body>
 </html>
