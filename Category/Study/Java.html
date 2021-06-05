@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vestige - Home</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../Source/style.css">
+    <script src="../../Source/Menu.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    <div class="header">
+      <h1><a href="../../index.html" title="홈으로 이동">Project Vestige</a></h1>
+      <a href="../IntroduceDev.html" title="개발자 소개">Developer : JiHun Kang</a>
+      <ul>
+        <script>HeaderMenu.printHeaderMenu("../");</script>
+      </ul>
+    </div>
+    <div class="contents">
+    <h2>Study</h2>
+    <h3>Test</h3>
+    <h4>목차</h4>
+    <div>
+      <ol>
+        <li><a href="#aboutServlet">Servlet?</a></li>
+      </ol>
+    </div>
+
+    <h4 id="aboutServlet">Servlet?</h4>
+    <div>
+      <ol>
+        <li>Servlet은 클라이언트의 요청을 분석하여 적절한 응답 서비스를 제공하는 자바 클래스입니다.</li>
+        <li>Servlet은 서버에서 수행하는 기능을 구현하는 프로그램입니다.</li>
+      </ol>
+      <p>웹서버에서 동작하는 Servlet 클래스를 생성할 때는 주로 'javax.servlet.http.HttpServlet'을 상속하여 구현합니다.</p>
+      <h5>HttpServlet 메서드</h5>
+      <ol>
+        <li>init() : Servlet 클래스의 객체가 생성된 후에 호출되는 메서드</li>
+        <li>destroy() : Servlet 객체가 메모리에서 해제될 때 호출되는 메서드</li>
+        <li>service() : 요청 방식에 관계없이 브라우저로부터 요청이 전달되면 호출되는 메서드</li>
+        <li>doGet() : 브라우저로부터 GET 방식으로 요청이 전달되면 호출되는 메서드</li>
+        <li>doPost() : 브라우저로부터 POST 방식으로 요청이 전달되면 호출되는 메서드</li>
+      </ol>
+    </div>
+    </div>
+  </div>
+  </body>
+</html>
